@@ -17,8 +17,8 @@ h1 {
 }
 
 h1:hover {
-    color: #317BF1; /* change color on hover */
-    text-shadow: 2px 2px 4px rgba(90, 150, 246, 0.5); /* change shadow color on hover */
+    color: #317BF1;
+    text-shadow: 2px 2px 4px rgba(90, 150, 246, 0.5); 
 }
 
 .interests{
@@ -79,7 +79,7 @@ thead {
 
 a {
     text-decoration: none;
-    color: #0000cc; /* slightly blue */
+    color: #0000cc; 
     position: relative;
 }
 
@@ -102,25 +102,25 @@ a:hover::before {
 }
 
 ul {
-    list-style-type:none; /* remove default bullet points */
+    list-style-type:none;
     padding: 0;
     margin: 0;
 }
 
 ul li {
-    background-color: #f9f9f9; /* light gray background */
-    margin: 10px 0; /* add some margin between list items */
-    padding: 20px; /* add some padding */
-    border-radius: 5px; /* round the corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* add a subtle shadow */
-    transition: background-color 0.3s ease; /* transition for hover effect */
-    font-family: Arial, sans-serif; /* use a clean, readable font */
-    font-size: 16px; /* set a comfortable font size */
-    color: #333; /* dark gray color for the text */
-    line-height: 1.5; /* space out the lines of text a bit */
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 20px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease; 
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; 
+    line-height: 1.5;
 
 }
 
 ul li:hover {
-    background-color: #e9e9e9; /* slightly darker gray on hover */
+    background-color: #e9e9e9;
 }
