@@ -1,0 +1,126 @@
+body {
+    background-color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #317BF1; /* change color on hover */
+    text-shadow: 2px 2px 4px rgba(90, 150, 246, 0.5); /* change shadow color on hover */
+}
+
+.interests{
+    font-size: 1.2em;
+    color: #317BF1;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    transition: transform 0.3s ease-in-out;   
+}
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #B7D2FC;
+}
+
+thead {
+    background-color: #317BF1;
+    color:white;
+}
+
+.footerbody{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0000cc; /* slightly blue */
+    position: relative;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor;
+    visibility: hidden;
+    transition: visibility 0.3s, transform 0.3s;
+    transform: scaleX(0);
+}
+
+a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+ul {
+    list-style-type:none; /* remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background-color: #f9f9f9; /* light gray background */
+    margin: 10px 0; /* add some margin between list items */
+    padding: 20px; /* add some padding */
+    border-radius: 5px; /* round the corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* add a subtle shadow */
+    transition: background-color 0.3s ease; /* transition for hover effect */
+    font-family: Arial, sans-serif; /* use a clean, readable font */
+    font-size: 16px; /* set a comfortable font size */
+    color: #333; /* dark gray color for the text */
+    line-height: 1.5; /* space out the lines of text a bit */
+
+}
+
+ul li:hover {
+    background-color: #e9e9e9; /* slightly darker gray on hover */
+}
